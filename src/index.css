@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+.main img{
+    box-shadow: inset 0px 0px 89px 40px #000;
+
+}
