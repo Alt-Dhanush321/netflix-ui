@@ -9,6 +9,8 @@ function Main() {
 
     const movie  = movies[Math.floor(Math.random() * movies.length )]
 
+    
+
     useEffect(()=>{
         axios.get(request.reqPopular)
         .then((res)=>setMovies(res.data.results))
